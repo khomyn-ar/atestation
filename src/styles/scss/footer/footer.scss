@@ -1,0 +1,36 @@
+.footer {
+  background: #15141a;
+
+  i {
+    &.fa {
+      font-size: 15px;
+      padding: 20px;
+      color: #444348;
+      margin-top: 20px;
+
+      &:hover {
+        color: #008ed6;
+      }
+    }
+
+    &.active {
+      color: #008ed6;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    color: #444348;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+    a {
+      color: #444348;
+
+      &:hover {
+        color: #008ed6;
+      }
+    }
+  }
+}
