@@ -2,7 +2,7 @@
   .table-price h5 {
     font-size: 36px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: $dark;
     line-height: 1;
     margin-bottom: 0;
     margin-top: 0;
@@ -107,7 +107,7 @@
   .home-details {
     width: 100%;
     display: block;
-    margin: 0 30px;
+    margin: 0 5px;
   }
 
   .logo {
@@ -128,5 +128,13 @@
 
   .address-details {
     width: 100%;
+  }
+
+  .item img {
+    margin-bottom: 20px;
+  }
+
+  .carousel-indicators {
+    display: none;
   }
 }

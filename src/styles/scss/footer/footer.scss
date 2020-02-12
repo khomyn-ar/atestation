@@ -9,12 +9,12 @@
       margin-top: 20px;
 
       &:hover {
-        color: #008ed6;
+        color: $lh-blue;
       }
     }
 
     &.active {
-      color: #008ed6;
+      color: $lh-blue;
     }
   }
 
@@ -29,7 +29,7 @@
       color: #444348;
 
       &:hover {
-        color: #008ed6;
+        color: $lh-blue;
       }
     }
   }
