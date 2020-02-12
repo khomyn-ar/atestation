@@ -58,8 +58,9 @@ ul.nav {
   .home h1 {
     color: #ffffff;
     font-size: 46px;
-    font-weight: 400;
-    line-height: 48px; }
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 1px;  }
   .home p {
     font-size: 18px;
     color: #999999;
@@ -116,6 +117,20 @@ ul.nav {
   line-height: 4;
   border-radius: 50%; }
 
+.features h2 {
+  font-weight: 600; }
+
+.features .icons {
+  margin-top: 21px;
+}
+.features .icon-box {
+  border: 1px solid #e1e1e1;
+  border-radius: 100px;
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+}
+
 .features h3 {
   font-size: 24px;
   color: #1a1a1a; }
@@ -149,6 +164,8 @@ ul.nav {
         color: #008ed6;
         height: 30px;
         width: 30px; }
+  .phone h2 {
+    font-weight: 600; }
   .phone h4 {
     font-size: 14px;
     color: #008ed6;
@@ -167,12 +184,11 @@ ul.nav {
       color: #1b1b1b;
       list-style: none;
       font-family: 'Source Sans Pro', sans-serif; }
-      .phone ul li i.fa {
-        font-size: 20px;
-        color: #008ed6;
-        height: 30px;
-        width: 30px; }
-
+    .phone ul li div {
+      width: 20px;
+      margin-right: 10px;
+      display: inline-block;
+    }
 .second-phone {
   background: #f2f2f2; }
   .second-phone h4 {
@@ -182,7 +198,8 @@ ul.nav {
     text-transform: uppercase;
     font-weight: 700; }
   .second-phone h2 {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-weight: 600; }
   .second-phone p {
     font-size: 18px;
     color: #999999;
@@ -213,6 +230,8 @@ ul.nav {
     color: #008ed6;
     text-transform: uppercase;
     font-weight: 700; }
+  .testimonials h2 {
+    font-weight: 600; }
 
 .carousel-indicators li {
   margin-right: 20px;
@@ -282,6 +301,8 @@ ul.nav {
   text-transform: uppercase;
   margin-top: 65px;
   font-weight: 700; }
+.price-plan h2 {
+  font-weight: 600; }
 
 .table-price h5 {
   font-size: 60px;
@@ -368,6 +389,8 @@ ul.nav {
     text-transform: uppercase;
     margin-top: 65px;
     font-weight: 700; }
+.contact h2 {
+  font-weight: 600; }
 
 .contact-form {
   background: #15141a;
@@ -467,7 +490,6 @@ ul.nav {
     font-weight: 300;
     padding: 65px 0; }
   .buttons {
-    display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
@@ -486,7 +508,6 @@ ul.nav {
     font-weight: 300;
     padding: 65px 0; }
   .buttons {
-    display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
@@ -530,11 +551,15 @@ ul.nav {
   .home-details {
     width: 100%;
     display: block;
-    margin: 0 30px; }
+    margin: 0 5px; }
   .logo {
     margin-left: 25px; }
   .second-phone .second-phone-details {
     width: 100%; }
+  .item img {
+    margin-bottom: 20px; }
+  .carousel-indicators {
+    display: none; }
   .phone-details {
     width: 100%; }
     .phone-details ul {

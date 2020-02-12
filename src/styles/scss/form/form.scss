@@ -39,14 +39,14 @@
 
 .contact {
   i.fa {
-    color: #008ed6;
+    color: $lh-blue;
     font-size: 20px;
     padding: 20px;
   }
 
   p {
     font-size: 18px;
-    color: #999999;
+    color: $grey;
     line-height: 1;
   }
 }
@@ -58,7 +58,7 @@
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
-  background: #008ed6;
+  background: $lh-blue;
   border-radius: 5px;
   border: 0;
   margin-bottom: 40px;
